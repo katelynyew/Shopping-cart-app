@@ -1,16 +1,42 @@
-# React + Vite
+# Shopping Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A small e-commerce front end that fetches products, lets users add items to a cart, update quantities, and see totals. Built with React, Redux Toolkit, and Vite to demonstrate modern state management and async data fetching.
 
-Currently, two official plugins are available:
+## Features
+- Product list fetched from an external API
+- Add to cart and remove items
+- Quantity edits with live total updates
+- Basic loading and error states
+- Responsive layout
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- Redux Toolkit
+- React Router
+- Vite
+- CSS
 
-## React Compiler
+## Getting Started
+```bash
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Scripts
+- `npm run dev` Start the dev server
+- `npm run build` Create a production build
+- `npm run preview` Preview the production build locally
 
-## Expanding the ESLint configuration
+## Project Structure
+- `src/components` UI components and pages
+- `src/features/ShopCart` Redux slices
+- `src/app` Redux store setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Notes
+- This project is intended as a portfolio piece and focuses on clean state management and UI behavior.
+- Product data comes from an external API, so the app requires a network connection.
+
+## Roadmap
+- Persist cart between sessions
+- Improve accessibility and SEO
+- Add product details page
