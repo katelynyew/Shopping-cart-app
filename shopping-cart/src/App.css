@@ -69,6 +69,7 @@ nav a:hover {
   height: 250px;
   object-fit: contain;
   margin-bottom: 1rem;
+  aspect-ratio: 1 / 1;
 }
 
 .product-card h2 {
@@ -85,7 +86,7 @@ nav a:hover {
 }
 
 .product-card button {
-  background-color: #DC5F00;
+  background-color: #3700ff;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
@@ -140,6 +141,7 @@ nav a:hover {
   width: 100px;
   height: 100px;
   object-fit: contain;
+  aspect-ratio: 1 / 1;
 }
 
 .cart-item-details {
@@ -169,7 +171,7 @@ nav a:hover {
 }
 
 .back-button {
-  background-color: #DC5F00;
+  background-color: #1d0cdb;
   color: white;
   border: none;
   padding: 0.5rem 1rem;
