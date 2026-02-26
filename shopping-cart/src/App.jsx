@@ -6,7 +6,7 @@ import './App.css'
 function App() {
   return (
 
-      <Router>
+      <Router basename='/Shopping-cart-app'>
         <Routes>
           <Route path="/" element={<ProductList/>}/>
           <Route path="/cart" element={<Cart/>}/>
